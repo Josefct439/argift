@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button_link{
+    display: inline-block;
+    color: white;
+    background-color: #ffad00;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex: 2;
+    background-color: aqua;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.right{
+    display: flex;
+    flex: 1;
+    background-color: green;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 40%;
+    margin: 1% 1% 1%;
+}
